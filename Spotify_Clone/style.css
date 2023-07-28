@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(243, 224, 208);
+}
+
+.nav{
+    background-color: black;
+    width: 1537px;
+    height: 45px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.logo{
+    /* border: 2px solid green; */
+    position: relative;
+    top: 0px;
+    left: 10px;
+    height: 67px;
+    width: 90px;
+}
+
+.logo img{
+    position: relative;
+    top: 5px;
+    left: 15px;
+    width: 33px;
+    height: 33px;
+}
+
+
+.list{
+    position: relative;
+    top: -71px;
+    left: 32px;
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+.list ul li{
+    float: left;
+    color: white;
+}
+
+.box1{
+    position: relative;
+    top: 53px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 583px;
+    left: 220px;
+    width: 1100px;
+    /* background-color: white; */
+}
+
+
+.box2{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+
+
+.songs{
+    position: absolute;
+    width: 520px;
+    max-height: 500px;
+    left: 250px;
+    top: 140px;
+    overflow-y: auto;
+    /* border: 2px solid red; */
+}
+
+.songs {
+    width: 500px;
+    height: 500px; 
+    /* border: 2px solid red;  */
+    /* background-color: white; */
+}
+
+.songs div{
+    padding: 5px 5px;
+    background-color: white;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+.songs div span{
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
+
+.songs div .image{
+    position: absolute;
+    top: 3px;
+    left: 17px;
+    width: 35px;
+    height: 35px;
+    border-radius:30px;
+}
+
+.songs .song_length{
+    position: absolute;
+    top: 10px;
+    left: 420px;
+}
+
+.songs div .playIcon{
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    left: 460px;
+    height: 30px;
+    width: 30px;
+}
+
+
+.bar{
+    position: relative;
+    top: 60px;
+    left: -8px;
+    background-color: black;
+    width: 1519px;
+    height: 92px;
+}
+
+
+.text{
+    position: absolute;
+    border: 2px solid red;
+    top: 10px;
+    left: 150px;
+    width: 1200px;
+    height: 50px;
+}
+
+#gif{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    opacity: 0;
+}
+
+#gif img{
+    width: 100px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
